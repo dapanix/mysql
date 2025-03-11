@@ -1,0 +1,34 @@
+create table A6_Departamento(
+    codDep number(2) primary key,
+    dniJefe number(8),
+    nombreDep varchar(100));
+
+CREATE TABLE A6_PROFESOR (
+    dni VARCHAR(8) PRIMARY KEY,
+    nombre VARCHAR(30) NOT NULL,
+    prApellido VARCHAR(30) NOT NULL,
+    sgApellido VARCHAR(30),
+    CONSTRAINT ck_A6_dni CHECK (LENGTH(dni) BETWEEN 7 AND 8)
+);
+ALTER TABLE A6_PROFESOR
+add constraint ck_A6PROFESOR_dni CHECK (LENGTH(dni) BETWEEN 7 AND 8);
+
+
+
+CREATE TABLE A6_ALUMNO (
+dni varchar(8) PRIMARY KEY,
+nombre varchar(30)NOT NULL,
+prApellido varchar(30) NOT NULL,
+sgApellido varchar(30),
+bilingue varchar(1)NOT NULL,
+constraint ck_A6ALUMNO_dni CHECK(LENGTH(dni) BETWEEN 7 AND 8),
+constraint ck_A6ALUMNO_biligue CHECK( bilingue IN ('S', 'N')));
+
+CREATE TABLE A6_ALUMNOBIL(
+codAlumnB number(4) PRIMARY KEY,
+fecha DATE NOT NULL,
+lugar varchar(20)
+);
+
+CREATE TABLE A6_CICLO(
+codCiclo number(2) PRIMARY KEY,
