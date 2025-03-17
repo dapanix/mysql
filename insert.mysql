@@ -1,0 +1,71 @@
+INSERT INTO PROFESOR VALUES (44102321,'Antonio', 'Martínez', 'Gonzalez');
+INSERT INTO PROFESOR VALUES (29600501,'Dolores', 'Ramos', 'Cabrera');
+INSERT INTO PROFESOR VALUES (48300100,'Ian', 'Oxley',null);
+INSERT INTO PROFESOR VALUES (84501495,'Iván', 'Sánchez', 'Muñoz');
+INSERT INTO PROFESOR VALUES (48103100,'Miguel Angel', 'Martínez', 'Marín');
+INSERT INTO PROFESOR VALUES (90100200,'Alejandro', 'Marín', 'Cantos');
+INSERT INTO PROFESOR VALUES (28900194,'David', 'Negro', 'Catalan');
+
+Guillermo Usman Trapote  a  Todos 13:14
+INSERT INTO IMPARTE(DNI, CodAsig, Curso) VALUES(
+    44102321,
+    1,
+    2021
+);
+INSERT INTO IMPARTE(DNI, CodAsig, Curso) VALUES(
+    44102321,
+    2,
+    2022
+);
+INSERT INTO IMPARTE(DNI, CodAsig, Curso) VALUES(
+    29600501,
+    1,
+    2021
+);
+INSERT INTO IMPARTE(DNI, CodAsig, Curso) VALUES(
+    90100200,
+    3,
+    2022
+);
+INSERT INTO IMPARTE(DNI, CodAsig, Curso) VALUES(
+    84501495,
+    1,
+    2023
+);
+INSERT INTO IMPARTE(DNI, CodAsig, Curso) VALUES(
+    44102321,
+    4,
+    2022
+);
+INSERT INTO IMPARTE(DNI, CodAsig, Curso) VALUES(
+    48103100,
+    6,
+    2021
+);
+INSERT INTO IMPARTE(DNI, CodAsig, Curso) VALUES(
+    48300100,
+    5,
+    2022
+);
+INSERT INTO IMPARTE(DNI, CodAsig, Curso) VALUES(
+    90100200,
+    6,
+    2023
+);
+INSERT INTO IMPARTE(DNI, CodAsig, Curso) VALUES(
+    28900194,
+    1,
+    2022
+);
+
+Adrián Chozas Vinuesa 13:14
+insert into u_imparte values ( 44102321, 1, 2021 );
+insert into u_imparte values ( 44102321, 2, 2022 );
+insert into u_imparte values ( 29600501, 1, 2021 );
+insert into u_imparte values ( 90100200, 3, 2022 );
+insert into u_imparte values ( 84501495, 1, 2023 );
+insert into u_imparte values ( 44102321, 4, 2022 );
+insert into u_imparte values ( 48103100, 6, 2021 );
+insert into u_imparte values ( 48103100, 5, 2022 );
+insert into u_imparte values ( 90100200, 6, 2023 );
+insert into u_imparte values ( 28900194, 1, 2022 );
